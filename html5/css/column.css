@@ -383,3 +383,193 @@ body {
 	 background: #eee url(../img/trea4.png) no-repeat 10px center;
 	 /*display: inline-block;*/
 }
+
+
+/*ticket.html*/
+.book-ticket{
+	margin:10px;
+	color: #666;
+}
+
+.book-ticket h2{
+   
+   height:40px;
+   line-height: 40px;
+   border-bottom: 1px dashed #999;
+   font-size: 30px;
+   font-weight: normal;
+   padding:0 0 15px 0;
+}
+
+.book-ticket fieldset{
+	border:none;
+}
+.book-ticket ul{
+	font-size: 18px;
+	margin:10px;
+
+}
+
+.book-ticket ul li{
+	display: inline-block;
+	margin:0px 8px;
+}
+.book-ticket ul .selected{
+	border-radius: 4px;
+	background-color:#458B00;
+	color: #fff;
+	padding:3px;
+}
+
+.book-ticket .form {
+	
+	margin:5px 10px;
+	font-size: 18px;
+	border:none;
+
+}
+
+.book-ticket .left{
+	padding:15px 0px;
+	display: inline-block;
+	width:40%;
+}
+
+.book-ticket .form p{
+	line-height: 3;
+}
+.book-ticket .form input{
+	font-size: 18px;
+	margin-right: 20px;
+	border:1px solid #ccc;
+	padding:5px;
+
+}
+
+.book-ticket .form label{
+	padding:8px 10px 8px 10px ;
+}
+
+.book-ticket .right{
+	  margin-bottom: 20px;
+	  display: inline-block;
+
+	  width:40%;
+}
+
+.book-ticket .button{
+	display: inline-block;
+	width:10%;
+	text-align: center
+}
+
+
+.book-ticket .button .submit{
+	height: 100px;
+	width:80px;
+	padding:0;
+	margin: 0;
+	position: relative;
+	top:-28px;
+	color: #fff;
+	background-color: #f60;
+}	
+
+#content .air-ticket{
+
+	color: #666;
+	padding:0px 20px 0px 30px;
+}
+
+
+.air-ticket  h2{
+	font-size:30px;
+	border-bottom: 1px dashed #999;
+	padding:20px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.air-ticket ul {
+
+	font-size:20px;
+}
+
+.air-ticket ul li{
+     display: inline-block;
+     margin:10px;	
+}
+
+.air-ticket ul .selected{
+	background-color: #458B00;
+	padding:5px 8px;
+	border-radius: 4px;
+	color: #fff;
+
+} 
+
+.air-ticket table{
+	 font-size:18px;
+	 border:1px solid #333;
+	 
+	 /*margin: 10px 30px 10px 50px; */
+    border-collapse:collapse;
+    width:100%;
+    margin: 20px 0 0 0;
+
+	
+}
+
+.air-ticket table td,.air-ticket table th{
+	padding:5px 10px;
+	height: 30px;
+	line-height: 30px;
+	margin:0;
+	text-align: center;
+} 
+
+.air-ticket table th{
+	font-weight: normal;
+
+
+}
+
+.air-ticket table tr{
+	border-bottom: 1px solid #333;
+
+	height: 50px;
+	padding:100px;
+	
+}
+
+
+
+.air-ticket table tr:nth-child(2n){
+	background-color: #fafafa;
+}
+
+.air-ticket table tr:hover {
+
+	background-color: #eee;
+}
+
+.air-ticket table .more-air{
+	 text-align: center;
+} 
+
+.air-ticket table .reserved{
+   
+   
+   background-color: #f60;
+   display: inline-block;
+   height:35px;
+   line-height: 35px;
+   text-align: center;  
+   border-radius: 4px;
+   color: #fff;
+	/*padding:2px 1px 2px 1px;*/
+	
+	width:70px;
+	padding:0px 1px;
+
+}
