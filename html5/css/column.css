@@ -632,3 +632,36 @@ body {
 	margin: 0 auto;
 
 }
+
+
+/*about.html*/
+
+
+.list-about {
+	width:65%;
+	float:left;
+	color:#666;
+	padding-left:50px;
+}
+
+
+.list-about  section h2{
+	
+	font-size: 30px;
+	border-bottom:1px dashed #333;
+	padding:15px 0px;
+	margin:10px 0;
+
+}
+
+.list-about section p{
+
+	margin-bottom: 10px
+}
+
+.list-about  address ul li{
+	list-style: none;
+	padding-bottom: 5px;
+	font-style: normal;
+
+}
